@@ -1,0 +1,76 @@
+*
+{
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.bar{
+  background-color: black;
+}
+
+.scroller{
+  color: white;
+  padding-left: 4rem;
+  font-size: 1rem;
+}
+
+.array{
+  background-color: black;
+  color: white;
+  margin-left: 4rem;
+  border: 2px solid #6b0063;
+  border-radius: 5px;
+}
+.array:hover
+{
+  background-color: green;
+}
+.size-slider{
+  margin-left: 6.5rem;
+  width: 15%;
+}
+
+.speed-slider{
+  margin-left: 2.7rem;
+  width: 15%;
+}
+
+.first{
+  margin-left: 60px;
+}
+
+.sort-buttons{
+  padding: 5px 4rem;
+  margin-bottom: 20px;
+}
+
+.btn:hover{
+  background-color: green;
+}
+.config
+{
+  position: relative;
+  top: -22px;
+  text-align: left;
+}
+.array_container
+{
+  padding-left: 2px;
+  display: inline-block;
+  width: 150vh;
+  margin-left: 30vh;
+  height: 60vh;
+  /* border: 2px solid red; */
+}
+#outer
+{
+  margin-top: 20px;
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+  text-align: center;
+  height: 380px;
+}

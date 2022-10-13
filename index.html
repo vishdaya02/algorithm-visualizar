@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>SORTING VISUALIZER</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="bar">
+    <h1>SORTING VISUALIZER</h1>
+
+    <div class="config">
+      <h3 class="scroller" id="src">SIZE OF THE ARRAY :
+
+        <input class="size-slider" id="size_scroller" type="range" name="" value="40" step="20">
+
+      </h3>
+
+      <h3 class="scroller">SPEED OF THE ALGORITHM :
+        <input class="speed-slider" id="speed_scroller" type="range" name="" value="40" step="20">
+      </h3>
+
+      <button class="array" id="generate_newarray_button" type="button" name="button">GENERATE NEW ARRAY </button>
+    </div>
+
+    <div>
+      <div>
+        <button type="button" class="first sort-buttons btn btn-dark btn-lg download-button" id="bubble_sort_button">BUBBLE</button>
+        <button type="button" class="sort-buttons btn btn-dark btn-lg download-button" id="selection_sort_button">SELECTION</button>
+        <button type="button" class="sort-buttons btn btn-dark btn-lg download-button" id="insertion_sort_button">INSERTION</button>
+        <button type="button" class="sort-buttons btn btn-dark btn-lg download-button" id="merge_sort_button">MERGE</button>
+        <button type="button" class="sort-buttons btn btn-dark btn-lg download-button" id="quick_sort_button">QUICK</button>
+        <button type="button" class="sort-buttons btn btn-dark btn-lg download-button" id="heap_sort_button">HEAP</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="outer">
+
+  </div>
+  <script src="main.js"></script>
+  <script src="bubble sort.js"></script>
+  <script src="selection sort.js"></script>
+  <script src="insertion sort.js"></script>
+  <script src="merge sort.js"></script>
+  <script src="quick sort.js"></script>
+  <script src="Heap sort.js"></script>
+</body>
+</html>
